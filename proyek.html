@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alena Elda Aprilia | Proyek</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="container navbar">
+      <h1>Alena Elda Aprilia</h1>
+      <nav class="menu-laptop">
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="proyek.html">Proyek</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+          <li><a href="kalkulator.html">Kalkulator</a></li>
+        </ul>
+      </nav>
+
+      <button id="tombolTema">Mode Gelap</button>
+
+      <!-- Tantangan: menu ponsel yang bisa dibuka-tutup -->
+      <details class="menu-ponsel">
+        <summary>Menu</summary>
+        <nav>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="proyek.html">Proyek</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+            <li><a href="kalkulator.html">Kalkulator</a></li>
+          </ul>
+        </nav>
+      </details>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section>
+        <h2>Proyek Saya</h2>
+        <p>Kumpulan hasil belajar saya di Kelas Industri UBIG.</p>
+
+        <div class="filter-proyek">
+          <button type="button" id="filter-semua" class="tombol-filter aktif">Semua</button>
+          <button type="button" id="filter-html" class="tombol-filter">HTML</button>
+          <button type="button" id="filter-css" class="tombol-filter">CSS</button>
+          <button type="button" id="filter-javascript" class="tombol-filter">JavaScript</button>
+        </div>
+
+        <p id="jumlah-proyek"></p>
+
+        <div class="daftar-kartu" id="daftar-proyek"></div>
+      </section>
+
+      <p id="jumlah-proyek"></p>
+      <div id="daftar-proyek"></div>
+
+
+
+      <!-- FAQ dengan details dan summary -->
+      <section class="kartu">
+        <h2>Pertanyaan yang Sering Diajukan</h2>
+        <details>
+          <summary>Bahasa apa yang dipakai untuk membuat proyek ini?</summary>
+          <p>Semua proyek di halaman ini dibuat dengan HTML. Tampilannya akan saya rapikan dengan CSS mulai Minggu 03.
+          </p>
+        </details>
+        <details>
+          <summary>Apakah saya menerima pesanan pembuatan website?</summary>
+          <p>Belum, saya masih belajar. Namun kamu tetap boleh menghubungi saya melalui halaman Kontak.</p>
+        </details>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>Kontak: <a href="mailto:alenarpl10@gmail.com">alenarpl10@gmail.com</a> |
+      <a href="https://github.com/eldaaprilia07-oss" target="_blank">GitHub</a> |
+      <a href="https://www.youtube.com/@allenaell_prl" target="_blank">YouTube</a>
+    </p>
+    <p>&copy; 2026 Andi Pratama. Dibuat di Kelas Industri UBIG.</p>
+  </footer>
+</body>
+
+</html>
